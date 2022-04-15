@@ -1,0 +1,170 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    font-family: serif;
+}
+body{
+  background: url(carbon.jpg) no-repeat center fixed;
+  background-size: cover;
+  
+}
+.top{
+    position: sticky;
+    top: 0px;
+}
+.header{
+    
+    background-image:url(2.jpg);
+    
+    height: 60px;
+    padding: 9px;
+    box-sizing: border-box;
+    display: block;
+    font-size: 1.2vw;
+    color:#fff;
+    position: sticky;
+    top: 0;
+    
+}
+.header h1{
+    float: left;
+    text-shadow: 0px 3px black;
+    background-color: rgba(0, 0, 0, 0.1);
+    font-size: 2.2vw;
+    letter-spacing: 1.1vw;
+    text-transform: uppercase;
+}
+.e-cont{
+  float: right;
+  background-color: rgba(0, 163, 0, 0.658);
+  color: #fff;
+  margin-right: 20px;
+  height: 40px;
+  width: 300px;
+  text-align: center;
+  border-radius: 20px;
+  padding-top: 10px;
+  box-sizing: border-box;
+  letter-spacing: 5px;
+  font-family:'Times New Roman';
+
+}
+.navbar{
+    background-color:rgba(182, 5, 5, 0.815);
+    overflow: auto;
+    position: sticky;
+    top: 0;
+
+}
+.navbar .start {
+ 
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    margin-left: 2%;
+    
+    
+    
+  }
+  
+  .navbar .start li {
+    float: left;
+  }
+  
+  .navbar .start li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 10px 30px;
+    text-decoration: none;
+    font-size: 1.5vw;
+    
+  }
+   .navbar .start li a:hover {
+    background-color: #222;
+    border-radius: 1px;
+
+    
+  }
+  .navbar .start li a:active {
+    background-color: #111;
+    border-radius: 1px;
+
+    
+  }
+  .navbar .log {
+ 
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+      
+  }
+  
+  .navbar .log li {
+    float: right;
+  }
+  
+  .navbar .log li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 10px 30px;
+    text-decoration: none;
+    font-size: 1.5vw;
+    
+  }
+   .navbar .log .s-log li a:hover {
+    background-color:rgba(0, 3, 207, 0.842);
+    border-radius: 2px;
+  box-sizing: border-box;
+
+    
+  }
+  .navbar .log .s-sign li a:hover {
+    background-color:rgba(6, 155, 1, 0.829);
+    border-radius: 2px;
+  box-sizing: border-box;
+
+
+    
+  }
+.main-body{
+  padding-left: 8%;
+   font-size: 3vw;
+   color: #fff;
+   width: 100%;
+   height: 700px;
+   background-color: rgba(0, 0, 0, 0.5);
+   padding-top: 8%;
+   box-sizing: border-box;
+  
+  
+}
+.c-button a{
+   text-decoration: none;
+   color: #fff;
+   background-color:rgba(182, 5, 5, 0.815) ;
+   padding: 25px;
+   padding-left: 60px;
+   padding-right: 60px;
+   border: 2px groove #fff;
+   border-radius:0px 30px 0px 30px;
+   box-sizing: border-box;
+   font-size: 2vw;
+   margin-left: 4%;
+}
+.c-button a:hover{
+  background-color: rgba(236, 14, 14, 0.815);
+  
+}
+
+.footer{
+  background-color: #fff;
+  font-size: larger;
+  text-align: center;
+  height: 30px;
+
+
+}
+
+
